@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+커널리스트 꿀보
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+[Other Blog](http://blog.naver.com/gloryo)
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[kn-gloryo at gmail.com](mailto:kn-gloryo@gmail.com)
