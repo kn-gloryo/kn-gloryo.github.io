@@ -3,7 +3,7 @@ layout: post
 title: Step by Step - How to create a c++ library with NDK on Android Studio 1.5 (not experimental way)
 ---
 
-#1. Configure JDK, NDK Locations
+#1. Configure JDK, NDK path environments
 
 ####I'm using jdk 1.8.0_65 and ndk-bundle. We can use the official ndk also.
 
@@ -36,3 +36,32 @@ title: Step by Step - How to create a c++ library with NDK on Android Studio 1.5
 
 ![Let's see!](https://cloud.githubusercontent.com/assets/16010352/11554558/632e52be-99dc-11e5-9680-208c35c8bb06.png)
 
+
+
+#5. Create a folder for JNI
+
+![screenshot from 2015-12-03 15_36_30](https://cloud.githubusercontent.com/assets/16010352/11554611/f6952154-99dc-11e5-8f82-97cd746f6c1c.png)
+
+
+
+#6. Configure build.gradle
+####
+```javascript
+android {
+  ...
+  defaultConfig {
+    ...
+    ndk {
+      moduleName "your dllname"
+    }
+    
+    sourceSets.main {
+      jni.srcDirs = []
+      jniLibs.srcDir "src/main/libs"
+    }
+    ...
+  }
+  ...
+}
+```
+    
