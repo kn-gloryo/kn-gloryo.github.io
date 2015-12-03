@@ -5,7 +5,7 @@ title: Step by Step - How to create a c++ library with NDK on Android Studio 1.5
 
 #Configure JDK, NDK Locations
 
-##I'm using jdk 1.8.0_65 and ndk-bundle. We can use the official ndk also.
+###I'm using jdk 1.8.0_65 and ndk-bundle. We can use the official ndk also.
 
 [![Let's see!](https://cloud.githubusercontent.com/assets/16010352/11554158/d386dbfc-99d8-11e5-863a-c065f5ef11ec.png)
 
