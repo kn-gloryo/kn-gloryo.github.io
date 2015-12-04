@@ -12,4 +12,4 @@ permalink: /about/
 
 ### Contact me
 
-[kn-gloryo at gmail.com](mailto:kn-gloryo@gmail.com)
+[kernullist.gloryo at gmail.com](mailto:kernullist.gloryo@gmail.com)
