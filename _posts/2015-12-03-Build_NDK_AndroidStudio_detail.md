@@ -94,14 +94,53 @@ android.useDeprecatedNdk=true
 
 #9. Create a C++ source file
 
-####We don't need a C++ header file.
+####We don't need to check "Create associated header".
 
 ![screenshot from 2015-12-03 15_42_13](https://cloud.githubusercontent.com/assets/16010352/11555636/1cd4f634-99e5-11e5-94d2-2dfddd32ce2b.png)
+
+![screenshot from 2015-12-03 15_42_26](https://cloud.githubusercontent.com/assets/16010352/11579130/ad905a36-9a6e-11e5-8e46-2606d76173ec.png)
 
 ![screenshot from 2015-12-03 15_43_55](https://cloud.githubusercontent.com/assets/16010352/11555689/7f4df52c-99e5-11e5-8296-e0c2abe95318.png)
 
 
 
+#10. Create some MakeFiles
 
-#Continue...
+####Android.mk
+
+![screenshot from 2015-12-03 15_44_24](https://cloud.githubusercontent.com/assets/16010352/11579169/eea922aa-9a6e-11e5-9605-f84de8f9f10b.png)
+
+![screenshot from 2015-12-03 15_44_37](https://cloud.githubusercontent.com/assets/16010352/11579200/3cfbb1d4-9a6f-11e5-94cb-77ae693fbc85.png)
+
+![screenshot from 2015-12-03 15_45_44](https://cloud.githubusercontent.com/assets/16010352/11579206/48a66b32-9a6f-11e5-894e-5093d0bc1e4f.png)
+
+
+####Application.mk
+
+![screenshot from 2015-12-03 15_46_24](https://cloud.githubusercontent.com/assets/16010352/11579219/66d0280a-9a6f-11e5-8a00-066f83bed8cb.png)
+
+
+
+#11. Build Our NDK Library
+
+![screenshot from 2015-12-03 15_51_28](https://cloud.githubusercontent.com/assets/16010352/11579229/7dc9efaa-9a6f-11e5-8e37-a1e5e3e8d481.png)
+
+![ndk_build_result](https://cloud.githubusercontent.com/assets/16010352/11579248/bbee21b6-9a6f-11e5-8477-4cc651b16db1.png)
+
+
+#12. Let's Use Our NDK Library Function
+
+![use_ndk](https://cloud.githubusercontent.com/assets/16010352/11579359/c1d728e2-9a70-11e5-866e-fccba40ada67.png)
+
+
+#13. Final Build and Create APK
+
+####After build, We must have our library in the APK.
+
+![screenshot from 2015-12-03 15_54_57](https://cloud.githubusercontent.com/assets/16010352/11579393/174adb66-9a71-11e5-852f-201a1edabc58.png)
+
+![screenshot from 2015-12-03 15_55_12](https://cloud.githubusercontent.com/assets/16010352/11579398/224c583c-9a71-11e5-8ae5-50175fb88aab.png)
+
+
+#14. Let's Enjoy NDK :)
 
