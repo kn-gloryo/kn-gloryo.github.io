@@ -3,5 +3,4 @@ layout: post
 title: Mitigation 1. Windows 10에서 가능한 DLL Injection 완벽 방어
 ---
 
-#Mitigation 1. Windows 10에서 가능한 DLL Injection 완벽 방어
-[Check this](http://blog.naver.com/gloryo/220576807227)
+[Details](http://blog.naver.com/gloryo/220576807227)
