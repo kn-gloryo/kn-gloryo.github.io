@@ -1,5 +1,3 @@
-2016-1-28-gowinsvc.md
-
 ---
 layout: post
 title: Go Windows Service Helper
