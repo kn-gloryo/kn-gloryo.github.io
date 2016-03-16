@@ -8,7 +8,7 @@ permalink: /about/
 
 ### More Information
 
-[Other Blog](http://blog.naver.com/gloryo)
+[Blog](http://blog.naver.com/gloryo)
 
 ### Contact me
 
